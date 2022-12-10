@@ -55,7 +55,8 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <h1>{`✌️ I'm Carlos Alberto Ceja Zapata`} <br></br> <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "3D", "Games", "Web" ]'><span className="wrap">{text}</span></span></h1>
                 <p>I love 3D, Programming & Cats 🙀 </p>
-              </div>}
+              </div>
+              }
             </TrackVisibility>
           </Col>
         </Row>

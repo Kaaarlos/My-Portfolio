@@ -37,14 +37,14 @@ import projImg8 from "../assets/img/3dPort.png";
 import projImg9 from "../assets/img/banca.png";
 import projImg10 from "../assets/img/cartoon.png";
 import projImg11 from "../assets/img/cicles.png";
-import projImg12 from "../assets/img/cubo.png";
+import projImg12 from "../assets/img/LegoCicles.png";
 import projImg14 from "../assets/img/edificios.png";
 import projImg15 from "../assets/img/forest.png";
 import projImg16 from "../assets/img/future.png";
 import projImg17 from "../assets/img/Gato.png";
 import projImg18 from "../assets/img/gun.png";
 import projImg19 from "../assets/img/kirby.png";
-import projImg20 from "../assets/img/LegoCicles.png";
+import projImg20 from "../assets/img/cubo.png";
 import projImg21 from "../assets/img/LegoCycles.png";
 import projImg22 from "../assets/img/nave.png";
 import projImg23 from "../assets/img/pollo.png";
@@ -62,16 +62,19 @@ export const Projects = () => {
       title: "3D Webs",
       description: "Design & Development",
       imgUrl: projImg27,
+      url: "https://harmonious-meringue-3f109b.netlify.app/",
     },
     {
       title: "3D Webs",
-      description: "DesigN",
+      description: "Design",
       imgUrl: projImg28,
+      url: "https://helpful-hotteok-1b8d38.netlify.app/",
     },
     {
       title: "Interactives Webs",
       description: "Design & Development",
       imgUrl: projImg29,
+      url: "https://remarkable-granita-72ee7a.netlify.app/",
     },
     {
       title: "Dao",
@@ -84,19 +87,22 @@ export const Projects = () => {
       imgUrl: projImg31,
     },
     {
-      title: "Webs Clone",
+      title: "Amazon Clone",
       description: "Design & Development",
       imgUrl: projImg32,
+      url: "https://harmonious-smakager-cc26e4.netlify.app/",
     },
     {
       title: "Crud Django",
       description: "Design & Development",
       imgUrl: projImg33,
+      url: "https://cruddjangop2.herokuapp.com/",
     },
     {
       title: "My CV",
       description: "CSS layout",
       imgUrl: projImg34,
+      url: "https://kaaarlos.github.io/",
     },
     {
       title: "Electron List",
@@ -112,11 +118,13 @@ export const Projects = () => {
       title: "Bakery",
       description: "Design",
       imgUrl: projImg37,
+      url: "https://lively-pika-dd4eb1.netlify.app/",
     },
     {
       title: "3D Webs",
       description: "Design & Development",
       imgUrl: projImg38,
+      url: "https://clinquant-haupia-38f84d.netlify.app/",
     },
     {
       title: "Crud Laravel",
@@ -152,11 +160,13 @@ export const Projects = () => {
       title: "Authentication Firebase ",
       description: "Development",
       imgUrl: projImg45,
+      url: "https://candid-cajeta-778015.netlify.app/",
     },
     {
       title: "Phaser Game",
       description: "Design",
       imgUrl: projImg46,
+      url: "https://magical-palmier-99a1d2.netlify.app/",
     },
     {
       title: "API React",
@@ -177,6 +187,7 @@ export const Projects = () => {
       title: "To do List Vue",
       description: "Design & Development",
       imgUrl: projImg50,
+      url: "https://eloquent-sundae-620cdb.netlify.app/",
     },
 
   ];
@@ -187,6 +198,7 @@ export const Projects = () => {
       title: "3D Diorama",
       description: "Animation",
       imgUrl: projImg4,
+      url: "https://www.contadorvisitasgratis.com/step_3.php#masquer",
     },
     {
       title: "3D Diorama",
