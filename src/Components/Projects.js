@@ -2,22 +2,54 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 
 //carlos imagenes
-import projImg1 from "../assets/img/calculadora.png";
-import projImg2 from "../assets/img/Gato.png";
-import projImg3 from "../assets/img/EditMe.png";
+import projImg27 from "../assets/img/3dPort.png";
+import projImg28 from "../assets/img/calculadora.png";
+import projImg29 from "../assets/img/EditMe.png";
+import projImg30 from "../assets/img/cripto.png";
+import projImg31 from "../assets/img/clima.png";
+import projImg32 from "../assets/img/clonAmazon.png";
+import projImg33 from "../assets/img/crudDjango.png";
+import projImg34 from "../assets/img/cv.png";
+import projImg35 from "../assets/img/electron.png";
+import projImg36 from "../assets/img/listaTareasReac.png";
+import projImg37 from "../assets/img/panaderia.png";
+import projImg38 from "../assets/img/threeScroll.png";
+import projImg39 from "../assets/img/crudLaravel.png";
+import projImg40 from "../assets/img/contador.png";
+import projImg41 from "../assets/img/crudPhp.png";
+import projImg42 from "../assets/img/chatNode.png";
+import projImg43 from "../assets/img/calculadoraJs.png";
+import projImg44 from "../assets/img/calculadoraReact.png";
+import projImg45 from "../assets/img/login.png";
+import projImg46 from "../assets/img/phaserGame.png";
+import projImg47 from "../assets/img/R&M.png";
+import projImg48 from "../assets/img/testimonios.png";
+import projImg49 from "../assets/img/ListaTareasReact.png";
+import projImg50 from "../assets/img/todoVue.png";
 
-//mariana imagenes
-import projImg4 from "../assets/img/GaleriaArteMariana.png";
-import projImg5 from "../assets/img/gatoGame.png";
-import projImg6 from "../assets/img/juegoMariana.png";
 
-//alex imagenes
-import projImg7 from "../assets/img/alex1.png";
-import projImg8 from "../assets/img/alex2.png";
-import projImg9 from "../assets/img/alex3.png";
-
-
-
+//3D imagenes
+import projImg4 from "../assets/img/lab.gif";
+import projImg5 from "../assets/img/mine.gif";
+import projImg6 from "../assets/img/oficina.gif";
+import projImg7 from "../assets/img/desert.png";
+import projImg8 from "../assets/img/3dPort.png";
+import projImg9 from "../assets/img/banca.png";
+import projImg10 from "../assets/img/cartoon.png";
+import projImg11 from "../assets/img/cicles.png";
+import projImg12 from "../assets/img/cubo.png";
+import projImg14 from "../assets/img/edificios.png";
+import projImg15 from "../assets/img/forest.png";
+import projImg16 from "../assets/img/future.png";
+import projImg17 from "../assets/img/Gato.png";
+import projImg18 from "../assets/img/gun.png";
+import projImg19 from "../assets/img/kirby.png";
+import projImg20 from "../assets/img/LegoCicles.png";
+import projImg21 from "../assets/img/LegoCycles.png";
+import projImg22 from "../assets/img/nave.png";
+import projImg23 from "../assets/img/pollo.png";
+import projImg24 from "../assets/img/saul.png";
+import projImg25 from "../assets/img/shiba.png";
 
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
@@ -25,61 +57,248 @@ import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
 
-  const projects = [
+  const websites = [
     {
-      title: "3D WEBS",
+      title: "3D Webs",
       description: "Design & Development",
-      imgUrl: projImg1,
+      imgUrl: projImg27,
     },
     {
-      title: "3D RENDERS",
+      title: "3D Webs",
       description: "DesigN",
-      imgUrl: projImg2,
+      imgUrl: projImg28,
     },
     {
-      title: "INTERACTIVE WEB",
+      title: "Interactives Webs",
       description: "Design & Development",
-      imgUrl: projImg3,
+      imgUrl: projImg29,
     },
+    {
+      title: "Dao",
+      description: "Cryptocurrencies",
+      imgUrl: projImg30,
+    },
+    {
+      title: "React",
+      description: "Weather",
+      imgUrl: projImg31,
+    },
+    {
+      title: "Webs Clone",
+      description: "Design & Development",
+      imgUrl: projImg32,
+    },
+    {
+      title: "Crud Django",
+      description: "Design & Development",
+      imgUrl: projImg33,
+    },
+    {
+      title: "My CV",
+      description: "CSS layout",
+      imgUrl: projImg34,
+    },
+    {
+      title: "Electron List",
+      description: "Design & Development",
+      imgUrl: projImg35,
+    },
+    {
+      title: "To do list",
+      description: "Design & Development",
+      imgUrl: projImg36,
+    },
+    {
+      title: "Bakery",
+      description: "Design",
+      imgUrl: projImg37,
+    },
+    {
+      title: "3D Webs",
+      description: "Design & Development",
+      imgUrl: projImg38,
+    },
+    {
+      title: "Crud Laravel",
+      description: "Design & Development",
+      imgUrl: projImg39,
+    },
+    {
+      title: "Counter React",
+      description: "Design & Development",
+      imgUrl: projImg40,
+    },
+    {
+      title: "Crud Php",
+      description: "Design & Development",
+      imgUrl: projImg41,
+    },
+    {
+      title: "Chat NodeJs",
+      description: "Design & Development",
+      imgUrl: projImg42,
+    },
+    {
+      title: "Calculator Javascript",
+      description: "Development",
+      imgUrl: projImg43,
+    },
+    {
+      title: "Calculator React",
+      description: "Design & Development",
+      imgUrl: projImg44,
+    },
+    {
+      title: "Authentication Firebase ",
+      description: "Development",
+      imgUrl: projImg45,
+    },
+    {
+      title: "Phaser Game",
+      description: "Design",
+      imgUrl: projImg46,
+    },
+    {
+      title: "API React",
+      description: "Design & Development",
+      imgUrl: projImg47,
+    },
+    {
+      title: "Testimonials React",
+      description: "Design & Development",
+      imgUrl: projImg48,
+    },
+    {
+      title: "To do List React",
+      description: "Design & Development",
+      imgUrl: projImg49,
+    },
+    {
+      title: "To do List Vue",
+      description: "Design & Development",
+      imgUrl: projImg50,
+    },
+
   ];
   
   //mariana imagenes
-  const projectsMariana = [
+  const imagesRender = [
     {
-      title: "ART GALLERY",
-      description: "Development",
+      title: "3D Diorama",
+      description: "Animation",
       imgUrl: projImg4,
     },
     {
-      title: "WEB GAME",
-      description: "Games",
+      title: "3D Diorama",
+      description: "Animation",
       imgUrl: projImg5,
     },
     {
-      title: "WEB GAME",
-      description: "Games",
+      title: "3D Diorama",
+      description: "Animation",
       imgUrl: projImg6,
     },
-  ];
-  
-  //alex imagenes
-  const projectsAlex = [
     {
-      title: "3D WEN",
-      description: "Development",
+      title: "3D Render",
+      description: "Desert",
       imgUrl: projImg7,
     },
     {
-      title: "WEB GAME",
-      description: "Games",
+      title: "3D Web",
+      description: "Interactive Web",
       imgUrl: projImg8,
     },
     {
-      title: "CALCULATOR",
-      description: "Games",
+      title: "3D Render",
+      description: "Park Alone",
       imgUrl: projImg9,
     },
+    {
+      title: "3D Render",
+      description: "Design Cartoon",
+      imgUrl: projImg10,
+    },
+    {
+      title: "3D Render",
+      description: "Ducks in Swimming pool",
+      imgUrl: projImg11,
+    },
+    {
+      title: "3D Render",
+      description: "lights",
+      imgUrl: projImg12,
+    },
+    {
+      title: "3D Render",
+      description: "Desert Realistic",
+      imgUrl: projImg14,
+    },
+    {
+      title: "3D Render",
+      description: "Forest",
+      imgUrl: projImg15,
+    },
+    {
+      title: "3D Render",
+      description: "Futuristic Render",
+      imgUrl: projImg16,
+    },
+    {
+      title: "3D Render",
+      description: "Cute Cat",
+      imgUrl: projImg17,
+    },
+    {
+      title: "3D Render",
+      description: "Rick and Morty Gun",
+      imgUrl: projImg18,
+    },
+    {
+      title: "3D Render",
+      description: "Kirby Ranchero",
+      imgUrl: projImg19,
+    },
+    {
+      title: "3D Render",
+      description: "Backroom",
+      imgUrl: projImg20,
+    },
+    {
+      title: "3D Render",
+      description: "Lego gigant rock",
+      imgUrl: projImg21,
+    },
+    {
+      title: "3D Render",
+      description: "spacecraft",
+      imgUrl: projImg22,
+    },
+    {
+      title: "3D Render",
+      description: "little Chicken",
+      imgUrl: projImg23,
+    },
+    {
+      title: "3D Render",
+      description: "Better call saul",
+      imgUrl: projImg24,
+    },
+    {
+      title: "3D Render",
+      description: "Shiba Inu",
+      imgUrl: projImg25,
+    },
   ];
+
+  const projectsAlex = [
+    {
+      title: "ART GALLERY",
+      description: "Development",
+      imgUrl: projImg33,
+    },
+  ];
+
+
   return (
     <section className="project" id="project">
       <Container>
@@ -93,10 +312,10 @@ export const Projects = () => {
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
-                      <Nav.Link eventKey="first">Carlos</Nav.Link>
+                      <Nav.Link eventKey="first">Websites</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Mariana</Nav.Link>
+                      <Nav.Link eventKey="second">3D</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                       <Nav.Link eventKey="third">Alex</Nav.Link>
@@ -106,7 +325,7 @@ export const Projects = () => {
                     <Tab.Pane eventKey="first">
                       <Row>
                         {
-                          projects.map((project, index) => {
+                          websites.map((project, index) => {
                             return (
                               <ProjectCard
                                 key={index}
@@ -120,7 +339,7 @@ export const Projects = () => {
                     <Tab.Pane eventKey="second">
                       <Row>
                           {
-                            projectsMariana.map((project, index) => {
+                            imagesRender.map((project, index) => {
                               return (
                                 <ProjectCard
                                   key={index}
