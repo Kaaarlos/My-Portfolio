@@ -4,8 +4,8 @@ import logo from '../assets/img/logo.png';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
 import navIcon4 from "../assets/img/git.png";
+import cv from "../assets/cv/CV_Carlos_Alberto_Ceja_Zapata.pdf";
 
-import { HashLink } from 'react-router-hash-link';
 import {
   BrowserRouter as Router
 } from "react-router-dom";
@@ -33,6 +33,11 @@ export const NavBar = () => {
     setActiveLink(value);
   }
 
+  const mostrarPDF = () => {
+    console.log("asdada")
+    window.open(cv, '_blank');
+  }
+
   return (
     <Router>
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
@@ -49,6 +54,11 @@ export const NavBar = () => {
               <Nav.Link href="#home"  className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
               <Nav.Link href="#skills"  className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
               <Nav.Link href="#project" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
+              
+              <button onClick={mostrarPDF}>
+              <Nav.Link href="" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'}>CV</Nav.Link> 
+              </button> 
+
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
